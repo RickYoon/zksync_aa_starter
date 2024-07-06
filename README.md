@@ -97,29 +97,22 @@ return (
 export default Home;
 ```
 
-4. Run the Development Server
-bash
-코드 복사
-npm run dev 5. Test Transactions
+4. Run the Development Server  
+npm run dev
+  
+6. Test Transactions
 Receive test ETH from the Sepolia faucet.
-Perform a simple transaction to test the setup. 6. Execute Batch Transactions
+Perform a simple transaction to test the setup.
+![image](https://github.com/RickYoon/zksync_aa_starter/assets/34963756/5eb9238f-a6e8-4577-a369-c4dcf079f827)
+
+  
+6. Execute Batch Transactions
 6.1 Deploy Smart Account Factory and Smart Account
-
 Deploy the Smart Account Factory and Smart Account for batch transactions.
-
 6.2 Create AA Using the Deployed Contract
-
 6.3 Execute Batch Transactions
 
 With these steps, you can now create various use cases based on this example.
-
-Links
-
-For more examples, visit:
-
-Daily Spend Limit Account
-zkSync Docs
-Writer
 
 Twitter: @devrick_fi
 
