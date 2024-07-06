@@ -110,10 +110,13 @@ Perform a simple transaction to test the setup.
 
     
 6. Execute Batch Transactions
-6.1 Deploy Smart Account Factory and Smart Account
-Deploy the Smart Account Factory and Smart Account for batch transactions.
-6.2 Create AA Using the Deployed Contract
-6.3 Execute Batch Transactions
+  
+6.1 Deploy Smart Account Factory and Smart Account  
+Deploy the Smart Account Factory and Smart Account for batch transactions.  
+
+6.2 Create AA Using the Deployed Contract  
+
+6.3 Execute Batch Transactions  
 
 With these steps, you can now create various use cases based on this example.
 
@@ -127,7 +130,7 @@ First, run the development server:
 
 ```bash
 npm run dev
-
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
