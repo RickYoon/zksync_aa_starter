@@ -97,7 +97,7 @@ export default Home;
 ```
 
 Run the Development Server  
-npm run dev
+npm run dev  
 ![image](https://github.com/RickYoon/zksync_aa_starter/assets/34963756/5eb9238f-a6e8-4577-a369-c4dcf079f827)
 
 
