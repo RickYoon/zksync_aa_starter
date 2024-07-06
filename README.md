@@ -14,17 +14,17 @@ The strength of zkSync's Native Account Abstraction lies in its ability to enabl
 
 ### 1. Install RainbowKit
 
-First, install RainbowKit:
+start React with RainbowKit:
 
 ```bash
 npm init @rainbow-me/rainbowkit@latest
 ```
 
-2. Configure Chains
-   Create a /src/wagmi.ts file and configure it as follows:
+### 2. Configure Chains
 
-typescript
-코드 복사
+/src/wagmi.ts
+
+```bash
 import { getDefaultConfig } from '@rainbow-me/rainbowkit';
 import {
 mainnet,
@@ -42,12 +42,12 @@ zkSyncSepoliaTestnet
 ],
 ssr: true,
 });
+```
 
 3. Set Up the Page
-   Create and configure the /pages/index.tsx file as follows:
+   /pages/index.tsx
 
-typescript
-코드 복사
+```bash
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import type { NextPage } from 'next';
 import Head from 'next/head';
@@ -89,13 +89,16 @@ return (
 );
 };
 
-export default Home; 4. Run the Development Server
-bash
-코드 복사
-npm run dev 5. Test Transactions
-Receive test ETH from the Sepolia faucet.
-Perform a simple transaction to test the setup. 6. Execute Batch Transactions
-6.1 Deploy Smart Account Factory and Smart Account
+export default Home;
+```
+
+4. Run the Development Server
+   bash
+   코드 복사
+   npm run dev 5. Test Transactions
+   Receive test ETH from the Sepolia faucet.
+   Perform a simple transaction to test the setup. 6. Execute Batch Transactions
+   6.1 Deploy Smart Account Factory and Smart Account
 
 Deploy the Smart Account Factory and Smart Account for batch transactions.
 
