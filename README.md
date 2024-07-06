@@ -96,25 +96,25 @@ return (
 export default Home;
 ```
 
-Run the Development Server  
+### 3. Run the Development Server  
+  
 npm run dev  
 ![image](https://github.com/RickYoon/zksync_aa_starter/assets/34963756/5eb9238f-a6e8-4577-a369-c4dcf079f827)
 
-
-Test Simple Transactions
-Receive test ETH from the Sepolia faucet.
- https://docs.zksync.io/ecosystem/network-faucets  
+### 4. Test Simple Transactions  
+  
+Receive test ETH from the Sepolia faucet.  
+https://docs.zksync.io/ecosystem/network-faucets  
 Perform a simple transaction to test the setup.
 ![image](https://github.com/RickYoon/zksync_aa_starter/assets/34963756/1478e32d-3983-4f92-8c70-449771e8ef88)
 ![image](https://github.com/RickYoon/zksync_aa_starter/assets/34963756/aab5ccd1-7c9d-43d5-8092-2095b01b5661)
 
-    
-6. Execute Batch Transactions
-  
-6.1 Deploy Smart Account Factory and Smart Account  
+### 5. Execute Batch Transactions
+   
+Deploy Smart Account Factory and Smart Account  
 Deploy the Smart Account Factory and Smart Account for batch transactions.  
 
-6.2 Create AA Using the Deployed Contract  
+Create AA Using the Deployed Contract  
 
 6.3 Execute Batch Transactions  
 
