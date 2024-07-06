@@ -2,10 +2,10 @@
 
 One of the key features of zkSync is Native Account Abstraction (AA). This technology provides flexibility in account creation and usage, facilitating user onboarding and enhancing usability. While Ethereum also supports AA through the EIP-4337 standard, it is implemented at the application level. In contrast, zkSync implements AA at the protocol level, allowing EOAs to be used similarly to Smart Contract Accounts, including features like paymasters.  
 
-Ethereum
+Ethereum  
 ![image](https://github.com/RickYoon/zksync_aa_starter/assets/34963756/e9457ff7-3d22-4d93-9238-47d3a95cc930)  
 
-zkSync
+zkSync  
 ![image](https://github.com/RickYoon/zksync_aa_starter/assets/34963756/aea25428-4d95-4d7b-87ed-acce2608c9fc)
 
 
