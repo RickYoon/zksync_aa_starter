@@ -27,7 +27,7 @@ start React with RainbowKit:
 npm init @rainbow-me/rainbowkit@latest
 ```
 
-### 2. Configure Chains
+### 2. Setup chain and Page
 
 /src/wagmi.ts
 
@@ -50,9 +50,8 @@ export const config = getDefaultConfig({
    ssr: true,
 });
 ```
-
-3. Set Up the Page
-   /pages/index.tsx
+  
+/pages/index.tsx
 
 ```bash
 import { ConnectButton } from '@rainbow-me/rainbowkit';
@@ -97,15 +96,19 @@ return (
 export default Home;
 ```
 
-4. Run the Development Server  
+Run the Development Server  
 npm run dev
-  
-6. Test Transactions
-Receive test ETH from the Sepolia faucet.
-Perform a simple transaction to test the setup.
 ![image](https://github.com/RickYoon/zksync_aa_starter/assets/34963756/5eb9238f-a6e8-4577-a369-c4dcf079f827)
 
-  
+
+Test Simple Transactions
+Receive test ETH from the Sepolia faucet.
+ https://docs.zksync.io/ecosystem/network-faucets  
+Perform a simple transaction to test the setup.
+![image](https://github.com/RickYoon/zksync_aa_starter/assets/34963756/1478e32d-3983-4f92-8c70-449771e8ef88)
+![image](https://github.com/RickYoon/zksync_aa_starter/assets/34963756/aab5ccd1-7c9d-43d5-8092-2095b01b5661)
+
+    
 6. Execute Batch Transactions
 6.1 Deploy Smart Account Factory and Smart Account
 Deploy the Smart Account Factory and Smart Account for batch transactions.
